@@ -46,7 +46,7 @@ inquirer.prompt([
                     var where = res[y].product_name;
                     console.log(newStock)
                     console.log(res[y].item_id)
-                    console.log("You Purchased: " + ans.purchase_ammount);
+                    console.log("You Purchased: " + ans.purchase_ammount + " " + res[y].product_name + "'s" + " for: $" + ans.purchase_ammount * res[y].price);
                     con.query("UPDATE products SET ? WHERE ?",
                         [{
                             stock_quantity: newStock
