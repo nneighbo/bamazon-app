@@ -1,0 +1,24 @@
+{
+  "name": "bamazon-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nneighbo/bamazon-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nneighbo/bamazon-app/issues"
+  },
+  "homepage": "https://github.com/nneighbo/bamazon-app#readme",
+  "dependencies": {
+    "inquirer": "^6.0.0",
+    "mysql": "^2.16.0"
+  }
+}
