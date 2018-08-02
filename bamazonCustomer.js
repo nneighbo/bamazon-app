@@ -31,7 +31,7 @@ inquirer.prompt([
             }
         }
         if (ableToBid === true) {
-            console.log("How much would you like to purchase?")
+            console.log("How much would you like to purchase?");
             inquirer.prompt([
                 {
                     type: "input",
